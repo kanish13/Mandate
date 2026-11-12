@@ -1,0 +1,15 @@
+{
+  "name": "mandate",
+  "version": "1.0.0",
+  "description": "An AI finance agent that pays vendors and sends invoices through PayPal, bounded by a deterministic spending policy it cannot override.",
+  "type": "module",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}
